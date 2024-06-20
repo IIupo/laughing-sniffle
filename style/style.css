@@ -584,7 +584,9 @@ menu {
         display: block;
     }
 }
-
+.opacity_zero {
+    opacity: 0;
+}
 .profit__btn {
     display: block;
         background-color: rgb(107, 90, 249);
