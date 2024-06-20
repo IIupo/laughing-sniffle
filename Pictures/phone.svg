@@ -1,0 +1,15 @@
+<svg width="52.000000" height="33.000000" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_760">
+			<rect id="phone-call 1" width="16.791668" height="16.791668" transform="translate(17.875000 8.125000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Rectangle 1" rx="5.000000" width="52.000000" height="32.500000" fill="#6B5AF9" fill-opacity="1.000000"/>
+	<rect id="phone-call 1" width="16.791668" height="16.791668" transform="translate(17.875000 8.125000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_760)">
+		<path id="Vector" d="M34.2 20.44L31.86 18.1C31.02 17.26 29.6 17.6 29.27 18.69C29.02 19.44 28.18 19.86 27.43 19.69C25.75 19.27 23.49 17.1 23.07 15.34C22.82 14.58 23.32 13.75 24.08 13.5C25.17 13.16 25.5 11.74 24.66 10.9L22.32 8.56C21.65 7.97 20.65 7.97 20.06 8.56L18.47 10.15C16.88 11.82 18.64 16.26 22.57 20.19C26.5 24.13 30.94 25.97 32.61 24.29L34.2 22.7C34.79 22.03 34.79 21.03 34.2 20.44Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
