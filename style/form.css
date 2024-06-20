@@ -110,7 +110,6 @@ input[type="checkbox"] {
 
 }
 .form__picture-hand {
-    z-index: 100;
     position: absolute;
     width: 221px;
     top: 85%;
