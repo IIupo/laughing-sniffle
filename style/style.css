@@ -575,7 +575,7 @@ menu {
     .see-more_open {
         transform: rotate(180deg);
     }
-
+}
 @media (min-width: 1280px) {
     .profit__conteiner {
         gap: 20px;
