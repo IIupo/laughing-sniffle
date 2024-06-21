@@ -13,12 +13,12 @@ btnArray.forEach(function(btn) {
 
 modalClose.addEventListener('click', function() {
     dialog.close();
-    modalOverlay.style.display = "none";
+    modalOverlay.style.transform = "scale(0)";
 })
 
 modalOverlay.addEventListener('click', function() {
   dialog.close();
-  modalOverlay.style.display = "none";
+  modalOverlay.style.transform = "scale(0)";
 })
 
 
@@ -31,11 +31,12 @@ let menuShow = false;
 
 menuBtn.addEventListener('click', function() {
   if (menuShow == false) { 
-    submenu.style.display = "block";
+    submenu.style.transform = "scale(1)";
+    overlay.style.transform =" scale(1)";
     menuShow = true;
     elMenu.classList.add('navigation__menu-3-active');
 } else {
-  submenu.style.display = "none";
+  submenu.style.transform = "scale(0)";
   menuShow = false;
   elMenu.classList.remove('navigation__menu-3-active');
 }
@@ -43,19 +44,19 @@ menuBtn.addEventListener('click', function() {
 
 submenu.addEventListener("click",function(e) {
   if((e.target) && (e.target.nodeName == "LI" || e.target.nodeName == "A")) {
-    submenu.style.display = "none";
+    submenu.style.transform = "scale(0)";
     menuShow = false;
     elMenu.classList.remove('navigation__menu-3-active');
   }
 });
 
 closeBtn.addEventListener('click', function() {
-    submenu.style.display = "none";
+    submenu.style.transform = "scale(0)";
     menuShow = false;
     elMenu.classList.remove('navigation__menu-3-active');
 });
 overlay.addEventListener('click', function() {
-  submenu.style.display = "none";
+  submenu.style.transform = "scale(0)";
   menuShow = false;
   elMenu.classList.remove('navigation__menu-3-active');
 });
@@ -63,10 +64,10 @@ overlay.addEventListener('click', function() {
 
 document.addEventListener('keydown', function (evt) {
     if (evt.keyCode === 27) {
-        submenu.style.display = "none";
+        submenu.style.transform = "scale(0)";
         menuShow = false;
         dialog.close();
-        modalOverlay.style.display = "none";
+        modalOverlay.style.transform = "scale(0)";
         elMenu.classList.remove('navigation__menu-3-active');
     }});
 
@@ -109,12 +110,12 @@ document.addEventListener('keydown', function (evt) {
         downSliderStart();
       } else if ((window.matchMedia("(max-width: 1280px)").matches)) {
         downSliderStart();
-        upSwiper.disable();
+        
         upSwiper = null;
       } else {
-        upSwiper.disable();
+        
         upSwiper = null;
-        downSwiper.disable();
+        
         downSwiper = null;
       }
     });

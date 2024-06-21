@@ -371,8 +371,9 @@ html {
 
 menu {
     position: relative;
-    display: none;
+    transform: scale(0);
     height: 100%;
+    z-index: 101;
 
 }
 
@@ -383,7 +384,7 @@ menu {
     width: 100%;
     height: 100%;
     background-color: rgba(163, 161, 161, 0.85);
-    z-index: 2;
+    z-index: 101;
 
 }
 .submenu {
@@ -451,10 +452,10 @@ menu {
 }
 @media (min-width: 1280px) {
     .submenu {
-        display: none;
+        transform: scale(0);
     }
     .overlay {
-        display: none;
+        transform: scale(0);
     }
 }
 
@@ -499,7 +500,7 @@ menu {
 }
 
 .display--none {
-    display: none;
+    transform: scale(0);
 }
 
 .profit__point {
