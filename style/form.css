@@ -116,7 +116,7 @@ input[type="checkbox"] {
     width: 221px;
     top: 90%;
     left: 0;
-    z-index: 101;
+    z-index: 3;
 }
 .form__picture-circle {
     position: absolute;
