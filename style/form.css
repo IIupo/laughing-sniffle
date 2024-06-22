@@ -23,7 +23,7 @@
     margin-bottom: 30px;
 }
 .section__text {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 30px;
@@ -175,7 +175,7 @@ input[type="checkbox"] {
         width: 450px;
         text-align: start;
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 400;
     }
     .section__container__text{
         width: auto;

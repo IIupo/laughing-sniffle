@@ -7,7 +7,7 @@ let btnArray = document.querySelectorAll('[type="button"]');
 btnArray.forEach(function(btn) {
     btn.addEventListener('click', function() {
       dialog.show();
-      modalOverlay.style.display = "block";
+      modalOverlay.style.transform = "scale(1)";
     });
 });
 

@@ -2,8 +2,13 @@ html {
     box-sizing: border-box;
     height: 100%; 
     scroll-behavior: smooth;
+
 }
 
+main {
+    padding: 0;
+    margin: 0;
+}
     *,*::after, *::before {
         box-sizing: inherit;
     }
@@ -13,6 +18,7 @@ html {
         padding: 0;
         color:  rgb(42, 35, 103);
         width: 100vw;
+        overflow-x: hidden;
     }
 
     
@@ -367,7 +373,13 @@ html {
         color:  rgb(107, 90, 249);
     }
 
+    li:hover {
+        cursor: pointer;
+    }
 
+    button:hover {
+        cursor: pointer;
+    }
 
 menu {
     position: relative;
@@ -713,4 +725,8 @@ menu {
     background-image: url('../Pictures/office.png');
     background-repeat: no-repeat;
     background-position: 60% 30%;
+}
+
+.bald {
+    font-weight: 600;
 }
