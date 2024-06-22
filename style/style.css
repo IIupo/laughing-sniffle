@@ -21,9 +21,7 @@ main {
         overflow-x: hidden;
     }
 
-    a:hover {
-	    cursor: pointer;
-    }
+    
 
     a {
         text-decoration: none;
@@ -588,9 +586,13 @@ menu {
         bottom: -37%;
         font-weight: 900;
         padding: 0 auto;
+        transition: 1s;
+        cursor: pointer;
     }
     .see-more_open {
         transform: rotate(180deg);
+        transition: 1s;
+        cursor: pointer;
     }
 }
 @media (min-width: 1280px) {
@@ -726,7 +728,7 @@ menu {
     height: 250px;
     background-image: url('../Pictures/office.png');
     background-repeat: no-repeat;
-    background-position: 60% 30%;
+    background-position: 50% 30%;
 }
 
 .bald {
